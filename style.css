@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+    .my-site{
+        height: 100vh;
+        width: 100%;
+        background-color: black;
+    }
+        .nav-bar{
+            height: 20%;
+            padding-top: 20px;
+            border-bottom: 2px solid white;
+            display: flex;
+        }
+            .nav-left{
+                width: 20%;
+                background-color: aquamarine;
+            }
+                .nav-left img{
+                    /* height: 50px; */
+                    padding-left: 50px;
+                    padding-top: 20px;
+                }
+            .nav-right{
+                width: 50%;
+                background-color:rgb(231, 189, 126);
+            }
+                .nav-right h1{
+                    padding-top: 20px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-weight: bolder;
+                    color: white;
+                }
+            .nav-last{
+                width: 25%;
+                /* background-color: rgb(76, 123, 165); */
+                display:flex;
+                align-items: center;
+                justify-content: end;
+            }
+                
